@@ -10,8 +10,12 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
+
+    <!-- Countdown timer plugin markup -->
+
     <div class="timer" id="timer-1">
       <div class="field">
         <span class="value" data-value="days">11</span>
@@ -33,6 +37,16 @@
         <span class="label">Seconds</span>
       </div>
     </div>
+
+        <!-- End of Countdown timer plugin markup -->
+
+<div class="button-box">
+  <button class="button" id="start-btn">Start</button>
+  <button class="button" id="pause-btn">Pause</button>
+  <button class="button" id="stop-btn">Stop</button>
+</div>
+        
+
     <!-- Скрипт идёт последним в разметке -->
     <script src="./index.js"></script>
   </body>
